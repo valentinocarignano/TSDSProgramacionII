@@ -1,0 +1,36 @@
+section {
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(0, 0, 0, .2);
+    margin-bottom: 15px;
+    padding: 15px;
+    margin: auto;
+}
+
+div {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.divGeneral {
+    margin: auto;
+    background-color: rgb(6, 106, 101);
+    width: 45%;
+}
+
+.titulosGeneral {
+    text-align: center;
+    color: black;
+}
+
+table {
+    margin: auto;
+}
+
+th, td{
+    border: 2px solid rgb(178, 178, 178);
+    border-spacing: 5px;
+    padding: 5px;
+    text-align: left;
+}

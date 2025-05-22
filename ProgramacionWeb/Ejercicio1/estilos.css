@@ -1,0 +1,40 @@
+#titulos {
+    color: brown;
+    text-align: center
+}
+
+.claseLabel {
+    border-color: black;
+    font-size: 30px;
+}
+
+section {
+    float: right;
+    width: 75%;
+    color: #762ba8;
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(0, 0, 0, .2);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+nav{
+    width: 20%;
+    float: left;
+}
+nav a{
+    background-color: #f71570;
+    border-radius: 10px 0 10px 0;
+    color: #ffff;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+footer{
+    clear: both;
+    padding: 1px;
+    text-align: center;
+    border-radius: 2px;
+}
