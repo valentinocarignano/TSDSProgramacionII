@@ -18,17 +18,17 @@
                 </section>
 
                 <!-- Sección derecha -->
-                <section class="col-md-6 bg-light p-4 seccion-formulario">
-                    <h2>Derecha</h2>
-                    <!-- INICIO CAROUSEL -->
+                <section class="col-md-6 bg-light p-4 seccion-formulario">                  
+                    <!-- INICIO CAROUSEL -->  
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
+                                <h3>Registrar Animal</h3>
                                 <!--INICIO FORM-->
                                 <label for="basic-url" class="form-label">Datos Animal</label>
                                 <div class="input-group mb-3">
-                                    <span class="input-group-text" id="basic-addon1"></span>
-                                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
+                                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                                    <input type="text" class="form-control" aria-label="Nombre" aria-describedby="basic-addon1">
                                 </div>
 
                                 <div class="input-group mb-3">
@@ -47,38 +47,123 @@
                                         <option value="1">Macho</option>
                                         <option value="2">Hembra</option>
                                     </select>
-
-                                    <span class="input-group-text" id="basic-addon1">Fecha de Nacimiento</span>
-                                    <input type="date" class="form-control" id="fechaNacimiento">
                                 </div>
 
                                 <div class="input-group mb-3">
-                                    <select class="form-select form-select-sm" aria-label="Raza">
+
+                                    <span class="input-group-text" id="basic-addon1">Fecha de Nacimiento</span>
+                                    <input type="date" class="form-control" id="fechaNacimiento">
+                                    
+                                    <span class="input-group-text" id="basic-addon2">Raza</span>
+                                    <select class="form-select form-select-sm" aria-placeholder="Seleccionar" aria-label="Raza">
                                         <option selected>Seleccionar</option>
                                         <option value="1">Labrador</option>
                                         <option value="2">Golden Retriever</option>
                                         <option value="3">Bulldog</option>
                                     </select>
-                                    <span class="input-group-text" id="basic-addon2">Raza</span>
+
                                 </div>
 
                                 <div class="mb-3">
+
                                     <label for="basic-url" class="form-label">Datos Dueño</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon3">DNI</span>
                                         <input type="text" class="form-control" id="basic-url" aria-describedby="DNI">
                                     </div>
-                                    <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+
+                                </div>
+
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                                    <button type="button" class="btn btn-outline-secondary">Aceptar</button>
+                                    <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+
                                 </div>
                                 <!--FIN FORM-->
                             </div>
+                            
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <h3>Modificar Animal</h3>
+                                <!--INICIO FORM-->
+                                <label for="basic-url" class="form-label">Datos Animal</label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                                    <input type="text" class="form-control" aria-label="Nombre" aria-describedby="basic-addon1">
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    
+                                    <span class="input-group-text" id="basic-addon2">Tipo</span>                                   
+                                    <select class="form-select form-select-sm" disabled aria-label="Tipo">
+                                        <option selected>Seleccionar</option>
+                                        <option value="1">Perro</option>
+                                        <option value="2">Gato</option>
+                                        <option value="3">Pez</option>
+                                    </select>
+                                    
+                                    <span class="input-group-text">Sexo</span>
+                                    <select class="form-select form-select-sm" aria-label="Sexo">
+                                        <option selected>Seleccionar</option>
+                                        <option value="1">Macho</option>
+                                        <option value="2">Hembra</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-group mb-3">
+
+                                    <span class="input-group-text" id="basic-addon1">Fecha de Nacimiento</span>
+                                    <input type="date" class="form-control" id="fechaNacimiento">
+                                    
+                                    <span class="input-group-text" id="basic-addon2">Raza</span>
+                                    <select class="form-select form-select-sm"disabled aria-placeholder="Seleccionar" aria-label="Raza">
+                                        <option selected>Seleccionar</option>
+                                        <option value="1">Labrador</option>
+                                        <option value="2">Golden Retriever</option>
+                                        <option value="3">Bulldog</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <label for="basic-url" class="form-label">Datos Dueño</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon3">DNI</span>
+                                        <input type="text" class="form-control" id="basic-url" aria-describedby="DNI">
+                                    </div>
+
+                                </div>
+
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                                    <button type="button" class="btn btn-outline-secondary">Aceptar</button>
+                                    <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+                                    
+                                </div>
+                                <!--FIN FORM-->
                             </div>
+
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <h3>Eliminar Animal</h3>
+                                <!--INICIO FORM-->
+                                <label for="basic-url" class="form-label">Datos Animal</label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">ID</span>
+                                    <input type="text" class="form-control" aria-label="ID" aria-describedby="basic-addon1">
+                                </div>
+
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                                    <button type="button" class="btn btn-outline-secondary">Aceptar</button>
+                                    <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+                                    
+                                </div>
+                                <!--FIN FORM-->
                             </div>
                         </div>
+
+                        <div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
@@ -86,14 +171,14 @@
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
-                        </button>
+                        </button>                        
+                        </div>
+
                     </div>
                     <!-- FIN CAROUSEL -->
                 </section>
             </div>
-        </div>
-
-        
+        </div>       
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     </body>
