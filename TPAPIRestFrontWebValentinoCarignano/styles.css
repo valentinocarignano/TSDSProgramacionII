@@ -33,3 +33,32 @@ h3{
     width: 72%;
     margin: 0 auto;
 }
+
+.animal-grid {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+.animal-grid th, .animal-grid td {
+    border: 1px solid #000000;
+    padding: 4px 8px;   /* Reduce espacio interno */
+    line-height: 1.2;   /* Reduce altura de línea */
+    vertical-align: middle;
+    text-align: left;
+    font-size: 13px;
+}
+        
+.animal-grid th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+}
+        
+.animal-grid tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.animal-grid tr:hover {
+    background-color: #efefef;
+}
