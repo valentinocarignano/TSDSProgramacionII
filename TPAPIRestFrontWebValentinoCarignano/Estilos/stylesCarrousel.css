@@ -1,0 +1,24 @@
+/* Ajusta las flechas del carrusel a los extremos */
+.carousel-control-prev {
+    left: 0; /* Pegado al borde izquierdo */
+    margin-left: -15px; /* Ajuste fino para posición */
+}
+
+.carousel-control-next {
+    right: 0; /* Pegado al borde derecho */
+    margin-right: -15px; /* Ajuste fino para posición */
+}
+
+/* Estilo opcional para hacerlas más visibles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Fondo negro */
+    border-radius: 50%; /* Forma circular */
+    padding: 20px; /* Tamaño */
+    background-size: 50% 50%; /* Tamaño del icono */
+}
+
+.carousel-inner{
+    width: 72%;
+    margin: 0 auto;
+}

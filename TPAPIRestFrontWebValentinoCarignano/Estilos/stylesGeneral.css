@@ -1,0 +1,28 @@
+#navbar-container nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+  }
+
+.seccion-formulario {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(0, 0, 0, .2);
+    margin: 25px;
+    height: 450px;
+    overflow-y: auto;
+}
+
+h3{
+    text-align: center;
+}
