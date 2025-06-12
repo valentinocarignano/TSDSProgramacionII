@@ -1,6 +1,11 @@
+.validarLabel {
+    color: #000000;
+    font-size: 20px;
+}
+
 #titulos {
     color: brown;
-    text-align: center
+    text-align: center;
 }
 
 .claseLabel {
