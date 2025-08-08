@@ -14,12 +14,17 @@
         <a href="#">Contacto</a>
         <a href="#">Acerca De</a>
     </nav>
+    
     <section class="claseLabel">
-         <label>Nombre</label>
-        <input type="text" placeholder="Nombre"> 
+        <label>Nombre</label>
+        <input id="nombre" type="text" placeholder="Nombre">
+        <br>
+        <label id="validarNombre" hidden class="validarLabel">Ingresar Nombre</label>
         <br><br>
         <label>Apellido</label>
-        <input type="text" placeholder="Apellido"> 
+        <input id="apellido" type="text" placeholder="Apellido">
+        <br>
+        <label id="validarApellido" hidden class="validarLabel">Ingresar Apellido</label>
         <br><br>
         <label>Sexo</label>
         <select>
@@ -41,8 +46,12 @@
 
 
    <footer>
-        <button>GUARDAR</button>
-        <button>CANCELAR</button>
-   </footer>    
+        <button onclick="alertRegister()">GUARDAR</button>
+        <button onclick="cancelar()">CANCELAR</button>
+        <button onclick="validarFormulario()">VALIDAR</button>
+   </footer>  
+   
+   <script src="script.js"></script>
+   
 </body>
 </html>
